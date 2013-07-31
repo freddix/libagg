@@ -1,0 +1,14 @@
+diff -aurN agg-2.5.orig/configure.in agg-2.5/configure.in
+--- agg-2.5.orig/configure.in	2013-07-17 22:25:40.459917751 +0200
++++ agg-2.5/configure.in	2013-07-17 22:25:55.012479508 +0200
+@@ -8,10 +8,6 @@
+ AC_PROG_CC
+ AC_PROG_CXX
+ AC_ISC_POSIX
+-AM_C_PROTOTYPES
+-if test "x$U" != "x"; then
+-  AC_MSG_ERROR(Compiler not ANSI compliant)
+-fi
+ AM_PROG_LIBTOOL
+ AC_PROG_INSTALL
+ 
