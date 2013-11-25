@@ -1,7 +1,7 @@
 Summary:	Anti-Grain Geometry (AGG) library
 Name:		libagg
 Version:	2.5
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Libraries
 Source0:	http://www.antigrain.com/agg-%{version}.tar.gz
